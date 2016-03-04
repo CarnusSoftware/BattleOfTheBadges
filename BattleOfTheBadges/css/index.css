@@ -1,0 +1,758 @@
+﻿html, body,h1
+{
+    width: 100%;
+    height: 100%;
+    font-family: Bebas;
+}
+
+.row
+{
+    min-height: 5%;
+    margin: 0 0 0 0;
+}
+
+    .row#menu
+    {
+        background: #3C393A;
+        color: #ffffff;
+        font-size: 2em;
+        position: fixed;
+        top: 0;
+        width: 100%;
+		z-index:8005;
+    }
+
+    .row#title
+    {
+        background: url(../images/layout/content-bg.jpg) repeat;
+        font-family: captureit;
+        text-align: center;
+        font-size: 9em;
+        line-height: 115px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        padding-top: 25px;
+    }
+
+        #teamLogos
+        {
+            margin: 0 auto;
+            width: 55%;
+        }
+
+    .row#info
+    {
+        background-color: #9A1B1E;
+        font-family: bebas;
+        min-height: 300px;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 7em;
+        padding: 45px 0 0 0;
+    }
+
+        #month
+        {
+            background: url(../images/layout/march-bg.png) top no-repeat;
+            width: 35%;
+            float: left;
+            padding: 55px 0 80px 25px;
+        }
+
+        #day
+        {   
+            background: url(../images/layout/number-bg.png) top no-repeat;
+            width: 33%;
+            float: left;
+            padding: 55px 0px 120px 0;
+        }
+
+        #time
+        {   
+            background: url(../images/layout/time-bg.png) top no-repeat;
+            width: 32%;
+            float: left;
+            padding: 55px 20px 80px 0;
+            
+        }
+
+    .row#pricing {
+        background-color: #e2b658;
+        min-height: 350px;
+    }
+
+        #map {
+            min-height: 300px;
+            width: 50%;
+            float: left;
+			margin-bottom:30px;
+        }
+
+        .whereToBuy img {
+            width: 27.5%;
+            float: left;
+            margin: 25px;
+        }
+
+        #ticketPrice {
+            background: url(../images/layout/ticket-bg.png) no-repeat;
+            min-height: 325px;
+            width: 30%;
+            float: left;
+            margin: 0 0 0 100px;
+            
+        }
+
+            #ticketPrice h1 {
+                font-family: Bebas;
+                font-size: 7em;
+                padding: 0 0 0 25px;
+                color: #9A1B1E;
+                line-height: 40px;
+            }
+
+            #ticketPrice h2 {
+                font-family: Bebas;
+                font-size: 5em;
+                padding: 0 0 0 25px;
+                color: #464747;
+            }
+			
+		#pricing h3 {
+			
+			font-family: Bebas;
+			font-size:5em;
+			color:#FFF;
+			text-align:center;
+		}
+
+    .row#about
+    {
+        background: url(../images/layout/content-bg.jpg) repeat;
+        padding: 75px 0 25px 0;
+        margin: -20px 0 0 0;
+    }
+
+        #aboutTitle {
+            width: 75%;
+            margin: 0 auto;
+            padding: 0 0 25px 0;
+        }
+
+        #mic {
+            width: 40%;
+            float: left;
+            padding: 40px 0 0 100px;
+        }
+
+        .row#about p {
+            font-family: arial;
+            width: 50%;
+            float: left;
+            padding: 25px 0 0 40px;
+            font-size: 1.25em;
+        }
+
+    .row#gallery {
+
+    }
+
+    .row#truckHeader {
+        font-family: Bebas;
+        background-color: #464747;
+    }
+
+        #truckHeader h1 {
+            color: #ffffff;
+            margin: 15px 0px 10px 80px;
+            font-size: 7em;
+        }
+
+    .row#truck {
+        background: url(../images/layout/content-bg.jpg) repeat;
+        font-family: Bebas;
+    }
+
+        #truck h1 {
+            color: #464747;
+            font-size: 7em;
+            margin: 0 0 -20px 75px;
+        }
+
+        #truck h2 {
+            color: #9a1b1e;
+            font-size: 10em;
+            margin: 0 0 0 75px;
+            font-family: bebas;
+        }
+
+        #truckImage {
+            width: 50%;
+            float: left;
+            margin: 0 0 20px 0;
+        }
+
+        #puck {
+            width: 45%;
+            float: left;
+            margin: 0 0 20px 0;
+        }
+
+
+    .row#campOoch
+    {
+        background: url(../images/layout/content-bg.jpg) repeat;
+        padding: 40px 0 50px 0;
+    }
+
+        .row#campOoch h1 {
+            font-family: Bebas;
+            font-size: 5em;
+            text-align: center;
+            display: inline;
+            margin: 0 auto;
+        }
+
+            #charityHeader {
+                text-align: center;
+                padding-top: 20px;
+            }
+
+            h1#camp {
+                color: #e2b658;
+            }
+
+        .row#campOoch img {
+            width: 33%;
+            float: left;
+
+        }
+
+        .row#campOoch p {
+            font-family: arial;
+            width: 60%;
+            float: left;
+            padding: 25px 0 0 40px;
+            font-size: 1.25em;
+        }
+
+        .row#campOoch span {
+            padding: 10px 50px 10px 50px;
+            color: #FFFFFF;
+            background-color: #3c393a;
+            float: left;
+            margin:20px 0 0 7%;
+            font-size: 2.5em;
+            font-family: Bebas;
+        }
+
+        .row#campOoch a {
+            color: #e2b658;
+        }
+
+            .row#campOoch a:hover {
+                text-decoration: none;
+                color: #ffffff;
+            }
+
+            .row#campOoch a:visited {
+                color: #c0c0c0;
+            }
+
+    .row#contact {
+        background-color: #E2B658;
+        padding: 40px 0 25px 0;
+    }
+
+        .row#contact h1 {
+            font-size: 5em;
+            text-align: center;
+            color: #ffffff;
+            padding: 0 0 20px 0;
+        }
+
+        #contactFormContainer {
+            float: left;
+            width: 45%;
+            color: #ffffff;
+        }
+
+            #name {
+                width: 80%;
+                line-height: 35px;
+                margin: 0 0 20px 0;
+                background-color: #464747;
+                color: #ffffff;
+                border: 0px solid;
+                font-size: 2em;
+                padding-left: 5px;
+            }
+
+            #email {
+                width: 80%;
+                line-height: 35px;
+                margin: 0 0 20px 0;
+                background-color: #464747;
+                color: #ffffff;
+                border: 0px solid;
+                font-size: 2em;
+                padding-left: 5px;
+            }
+
+            #message {
+                width: 80%;
+                height: 225px;
+                margin: 0 0 20px 0;
+                background-color: #464747;
+                color: #ffffff;
+                font-size: 2em;
+                padding-left: 5px;
+                border: 0px solid;
+            }
+
+            #submit {
+                margin: 0 auto;
+                width: 25%;
+                color: #ffffff;
+                padding: 5px 0 5px 0;
+                background-color: #464747;
+                font-size: 1.25em;
+                border: 0px solid;
+            }
+
+                #submit:hover {
+                    color: #e2b658;
+                }
+
+                #mailTo {
+                    color: #ffffff;
+                    font-size: 1.25em;
+                }
+
+        #googleMap {
+            float: left;
+            width: 55%;
+        }
+
+    .row#sponsors {
+        text-align: center;
+        font-family: Bebas;
+        background: url(../images/layout/content-bg.jpg) repeat;
+		padding:40px 0 25px 0;
+    }
+
+        .row#sponsors img {
+            padding: 0 5% 5% 0;
+        }
+
+        .row#sponsors p {
+            font-size: 5em;
+        }
+
+    .row#designers {
+        
+        background-color: #9a1b1e;
+        
+    }
+
+        .row#designers p {
+            color: #c0c0c0;
+            text-align: center;
+            font-family: arial;
+            line-height: 35px;
+        }
+
+
+.divider {
+    min-height: 25px;
+    
+}
+
+    .divider#grey {
+        background:url(../images/layout/menu-divider.png) bottom repeat-x;
+        position: fixed;
+        width: 100%;
+        margin-top: -10px;
+		z-index:8005;
+    }
+
+    .divider#red {
+        background:url(../images/layout/date-divider-top.png) top repeat-x;
+        margin-top: -25px;
+    }
+
+    .divider#yellow {
+        background: url(../images/layout/location-divider-bottom.png) bottom repeat-x;
+        margin-top: -10px;
+    }
+
+
+.nav {
+    text-align: center;
+}
+
+    .nav > li
+    {
+        list-style: none;
+        display: inline;
+        padding-right: 10px;
+    
+    }
+
+        
+
+        .nav > li > a
+        {
+            display: inline;
+            color: #FFFFFF;
+            font-family: bebas;
+            padding: 5px 30px;
+        }
+
+            .nav > li > a:hover
+            {
+                color: #3C393A;
+            }
+
+            .nav > li > a > img {
+      /*margin-right: -75px;*/          
+                padding: 0;
+            }
+
+            #twitter {
+                padding: 0 0 0 0;
+                background: none;
+	         }
+
+            #twitter:hover {
+                padding: 0 0 0 0;
+                background: none;
+	         }
+	 
+	         #facebook {
+	            padding: 0 0 0 0;
+	            background: none; 
+	         }
+
+             #facebook:hover {
+                padding: 0 0 0 0;
+                background: none;
+	         }
+
+input:valid, textarea:valid {
+  background: #dfd;
+}
+
+@media (max-width: 1200px)
+{   
+    .nav > li > a {
+        padding: 5px 10px;
+    }
+
+    .row#info {
+        font-size: 5.5em;
+    }
+
+	
+    #time {
+        padding: 80px 15px 110px 0;
+		line-height: 0.80;
+    }
+}
+
+@media (max-width: 1023px) {
+    .row#info {
+        font-size: 4em;
+    }
+	
+	.row#campOoch img {
+            width: 50%;
+            margin: 0 25%;
+
+    }
+	
+	.row#campOoch p {
+           
+            width: 100%;
+            padding: 25px 0 0 40px;
+            font-size: 1.25em;
+     }
+	 
+	 .row#title {
+	 		margin-top:50px;
+			padding-top:50px;
+	 }
+
+    #time {
+        line-height: 75px;
+        padding-bottom: 125px;
+        margin-bottom: 25px;
+    }
+    
+    #day {
+        padding: 80px 45px 120px 0;
+        margin-bottom: 25px;
+    }
+
+    #month {
+        padding: 80px 0 80px 25px;
+        margin-bottom: 25px;
+    }
+
+    #timeAndDate {
+        width: 100%;
+    }
+
+    .divider {
+        display: none;
+    }
+	
+	.nav > li > a > img {
+                display:none;
+     }
+	 
+	 .nav > li > a:hover > img {
+		 display:none;
+	 }
+	 
+	 #twitter {
+	 	display:none;
+	 }
+	 
+	 #facebook {
+	 	display:none;
+	 
+	 }
+
+     .row#campOoch span {
+            padding: 10px 50px 10px 50px;
+            margin:20px 0 0 40%;
+        }
+	 
+	 .whereToBuy img {
+            width: 25%;
+            float: left;
+            margin: 25px;
+        }
+
+     .row#truckHeader {
+        font-family: Bebas;
+        background-color: #464747;
+    }
+
+        #truckHeader h1 {
+            color: #ffffff;
+            margin: 15px 0px 10px 80px;
+            font-size: 5em;
+        }
+
+    .row#truck {
+        background: url(../images/layout/content-bg.jpg) repeat;
+        font-family: Bebas;
+    }
+
+        #truck h1 {
+            color: #464747;
+            font-size: 5em;
+            margin: 0 0 -20px 75px;
+        }
+
+        #truck h2 {
+            color: #9a1b1e;
+            font-size: 6.25em;
+            margin: 0 0 0 75px;
+            font-family: bebas;
+        }
+	 
+
+
+}
+
+
+@media (max-width: 767px) {
+	.row#menu
+    {	font-size:1.75em;
+	}
+	
+	.nav > li > a {
+		
+	padding: 0px 10px;
+	}
+	
+	#month {
+	width:100%;
+	padding:85px 0 85px 0;
+	}
+	
+	#day {
+	width:100%;
+	padding:85px 0 85px 0;
+	}
+	
+	#time {
+		width:100%;
+		padding:85px 0 85px 0;	}
+		
+	#map {
+            width: 100%;
+			padding-bottom:10%;
+        }
+		
+		#mapImage {
+			margin: 15px auto;
+		}
+
+        #ticketPrice {
+			background-position:center;
+			text-align:center;
+            width: 100%;
+            margin: 0 auto;
+            
+        }
+		
+	#mic {
+            width: 100%;
+			padding: 0 25% 0 25%;
+        }
+
+        .row#about p {
+            width: 100%;
+            padding: 25px 0 0 40px;
+            font-size: 1.25em;
+        }
+		
+	.row#campOoch span { 
+		margin: 20px 0 0 35%;
+	}
+	
+	#contactForm {
+
+            width: 100%;
+			padding: 0 0 10% 15%;
+			margin:0 auto;
+        }
+
+            #contactName {
+                width: 80%;
+                line-height: 35px;
+                margin: 0 0 20px 0;
+                background-color: #464747;
+                color: #ffffff;
+                border: 0px solid;
+                font-size: 2em;
+                padding-left: 5px;
+            }
+
+            #contactEmail {
+                width: 80%;
+                line-height: 35px;
+                margin: 0 0 20px 0;
+                background-color: #464747;
+                color: #ffffff;
+                border: 0px solid;
+                font-size: 2em;
+                padding-left: 5px;
+            }
+
+            #contactMessage {
+                width: 80%;
+                height: 225px;
+                margin: 0 0 20px 0;
+                background-color: #464747;
+                color: #ffffff;
+                font-size: 2em;
+                padding-left: 5px;
+                border: 0px solid;
+            }
+
+            button#SendEmail {
+                background-color: blue;
+                margin: 0 auto;
+                width: 25%;
+                color: #ffffff;
+                padding: 5px 0 5px 0;
+                background-color: #464747;
+                font-size: 1.25em;
+                border: 0px solid;
+            }
+
+                button#SendEmail:hover {
+                    color: #e2b658;
+                }
+
+        #googleMap {
+            width: 100%;
+			padding: 0 0 10% 15%;
+        }
+}
+
+@media (max-width: 500px) {
+	.nav > li {
+		display:block;
+	}
+	
+	.row#title {
+			margin:0 0 0 0;
+			padding: 15px 10px 15px 10px;
+			font-size:4em;
+			line-height:1;
+	 }
+	 
+	 .row#menu {
+	 	position:relative;
+	 }
+	 
+	 #ticketPrice h2 {
+	 	padding:0 0 0 0;
+	 }
+	 
+	  #ticketPrice h1 {
+	 	padding:0 0 0 0;
+	 }
+	
+	.row#campOoch span {
+		margin: 20px 0 0 20%;
+	}
+	
+    #contactFormContainer {
+        width: 100%;
+    }
+	
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'captureit';
+    src: url('../fonts/Capture_it-webfont.eot');
+    src: url('../fonts/Capture_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Capture_it-webfont.woff') format('woff'),
+         url('../fonts/Capture_it-webfont.ttf') format('truetype'),
+         url('../fonts/Capture_it-webfont.svg#capture_itregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'planecrash';
+    src: url('../fonts/planeCrash.ttf');
+}
+

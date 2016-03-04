@@ -1,0 +1,5 @@
+D:\Users\plangman\Dropbox\Documents\Carnus\Clients\BattleOfTheBadges\BattleOfTheBadges\bin\BattleOfTheBadges.dll
+D:\Users\plangman\Dropbox\Documents\Carnus\Clients\BattleOfTheBadges\BattleOfTheBadges\bin\BattleOfTheBadges.pdb
+D:\Users\plangman\Dropbox\Documents\Carnus\Clients\BattleOfTheBadges\BattleOfTheBadges\obj\Debug\BattleOfTheBadges.dll
+D:\Users\plangman\Dropbox\Documents\Carnus\Clients\BattleOfTheBadges\BattleOfTheBadges\obj\Debug\BattleOfTheBadges.pdb
+D:\Users\plangman\Dropbox\Documents\Carnus\Clients\BattleOfTheBadges\BattleOfTheBadges\obj\Debug\BattleOfTheBadges.csprojResolveAssemblyReference.cache
